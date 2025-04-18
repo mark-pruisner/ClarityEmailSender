@@ -65,11 +65,10 @@ await emailService.SendEmailAsync("recipient@example.com", "Subject", "Body text
 ClarityEmailSender/
 │
 ├── EmailService.cs           # Core async email logic
-├── RetryPolicy.cs            # Handles retry logic
 ├── ExcelLogger.cs            # Logs to .xlsx
 ├── appsettings.json          # Configurable SMTP and settings
-├── Controllers/              # (Optional) API Controllers
-├── WebFrontend/              # (Optional) ASP.NET Frontend
+├── Controllers/              # API Controllers
+├── WebFrontend/              # ASP.NET Frontend
 └── README.md                 # Project info and usage
 ```
 
