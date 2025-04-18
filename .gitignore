@@ -1,0 +1,53 @@
+# Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider project files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Compiled DLLs / EXEs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.mdb
+
+# Environment-specific files
+.env
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Test result files
+TestResults/
+*.coverage
+*.coveragexml
+
+# Dotnet CLI artifacts
+artifacts/
